@@ -62,7 +62,7 @@ const Testimonial: FC<TestimonialProps> = () => {
   return (
     <HomeForm ttl="Testimonial">
       <TtlHome ttl="What our clients say" />
-      <div className="w-full relative rounded-3xl bg-gradient-to-b from-main-light to-[#0062ff7f] lg:p-6">
+      <div className="w-full relative rounded-3xl bg-gradient-to-b from-main-light to-[#0062ff7f] p-6">
         <div>
           {comments?.map((e, i) => {
             return i + 1 === current ? (

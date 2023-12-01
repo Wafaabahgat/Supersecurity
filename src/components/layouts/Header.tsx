@@ -24,7 +24,7 @@ const Header: FC<HeaderProps> = () => {
   return (
     <>
       <div>
-        <Container className="flex items-center justify-between sm:gap-4 py-6">
+        <Container className="flex items-center justify-between sm:gap-4 pt-4">
           <div>
             <img src={Logo} className="min-w-[150px]" alt="Secured Logo" />
           </div>

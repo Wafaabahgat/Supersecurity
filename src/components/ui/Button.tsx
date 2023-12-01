@@ -14,11 +14,11 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-main-light text-white hover:bg-main hover:gap-4 rounded-full whitespace-nowrap",
+          "bg-main-light text-white hover:bg-main border hover:gap-4 rounded-full whitespace-nowrap",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline: "text-white bg-main-light rounded-full font-semibold",
-        secondary: "bg-white text-main-light rounded-full font-semibold",
+        secondary: "bg-white hover:bg-main hover:text-white text-main-light rounded-full font-semibold",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
       },
