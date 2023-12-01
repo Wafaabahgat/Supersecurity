@@ -14,13 +14,13 @@ interface FooterProps {}
 const Footer: FC<FooterProps> = () => {
   return (
     <>
-      <div >
+      <div>
         <Stay />
-        <Container className="footer_border py-10 px-2 ">
-          <div className="grid grid-cols-2 gap-14">
-            <div className="flex flex-col justify-between gap-4 max-w-[330px] mx-10">
+        <Container className="footer_border py-12 px-3 ">
+          <div className="grid grid-cols-3 gap-14">
+            <div className="flex flex-col justify-between gap-4 max-w-[330px] mx-10  mr-2">
               <img className=" max-w-[300px]" src={Logo} alt="" />
-              <p className=" text-slate-500">
+              <p className=" text-gray-500">
                 Lorem ipsum dolor sit amet consectetur. Egestas in consequat
                 nisl mattis elementum neque.
               </p>
@@ -33,23 +33,23 @@ const Footer: FC<FooterProps> = () => {
             </div>
 
             {/* hi */}
-            <div className="grid grid-cols-3 ">
+            <div className="grid grid-cols-3 col-span-2">
               <ul className="flex flex-col justify-between gap-4">
                 <li className="text-main-light font-semibold">Company</li>
-                <li className="hover:ml-2 transition-all hover:text-main cursor-pointer">
+                <li className="hover:ml-2 transition-all hover:text-main cursor-pointer text-gray-500">
                   About
                 </li>
-                <li className="hover:ml-2 transition-all hover:text-main cursor-pointer">
+                <li className="hover:ml-2 transition-all hover:text-main cursor-pointer text-gray-500">
                   Features
                 </li>
-                <li className="hover:ml-2 transition-all hover:text-main cursor-pointer">
+                <li className="hover:ml-2 transition-all hover:text-main cursor-pointer text-gray-500">
                   Works
                 </li>
-                <li className="hover:ml-2 transition-all hover:text-main cursor-pointer">
+                <li className="hover:ml-2 transition-all hover:text-main cursor-pointer text-gray-500">
                   Career
                 </li>
               </ul>
-              <ul className="flex flex-col justify-between gap-4">
+              <ul className="flex flex-col justify-between gap-4 text-gray-500">
                 <li className="text-main-light font-semibold">Help</li>
                 <li className="hover:ml-2 transition-all hover:text-main cursor-pointer">
                   Customer Support
@@ -64,7 +64,7 @@ const Footer: FC<FooterProps> = () => {
                   Privacy Policy
                 </li>
               </ul>
-              <ul className="flex flex-col justify-between gap-4">
+              <ul className="flex flex-col justify-between gap-4 text-gray-500 ">
                 <li className="text-main-light font-semibold">Resources</li>
                 <li className="hover:ml-2 transition-all hover:text-main cursor-pointer">
                   Free eBooks
@@ -80,6 +80,10 @@ const Footer: FC<FooterProps> = () => {
                 </li>
               </ul>
             </div>
+          </div>
+          <div className="mt-10 border-slate-200 border-t">
+            {/* <span className="h-[2px] bg-gradient-to-r  from-slate-500 to-slate-400 w-[400px]"></span> */}
+            <p className="text-center mt-4 text-gray-500">© Copyright 2022, All Rights Reserved by Securecrowd</p>
           </div>
         </Container>
       </div>

@@ -75,7 +75,7 @@ html {
   inset: 0;
   border-radius: 21px;
   padding: 2px;
-  background: linear-gradient(0deg, rgba(56, 115, 255, 0) 33%, #3873ff 75.56%);
+  background: linear-gradient(0deg, rgba(56, 115, 255, 0) 10%, #3873ff 75.56%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -89,6 +89,6 @@ html {
   @apply hover:shadow-md hover:-translate-y-3 transition-transform;
 }
 
-.scale__effect {
-  @apply hover:shadow-xl hover:scale-105 transition-transform cursor-pointer;
+.services_bg{
+  @apply border-main-light border-l-4 rounded-xl xl:py-2 py-5 px-2 xl:w-[291px] shadow-xl hover:shadow-xl hover:scale-105 transition-transform cursor-pointer
 }
