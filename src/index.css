@@ -89,6 +89,6 @@ html {
   @apply hover:shadow-md hover:-translate-y-3 transition-transform;
 }
 
-.services_bg{
-  @apply border-main-light border-l-4 rounded-xl xl:py-2 py-5 px-2 xl:w-[291px] shadow-xl hover:shadow-xl hover:scale-105 transition-transform cursor-pointer
+.services_bg {
+  @apply border-main-light border-l-4 rounded-xl xl:py-2 py-5 px-2 xl:w-[291px] shadow-xl hover:shadow-xl hover:scale-105 transition-transform cursor-pointer;
 }
