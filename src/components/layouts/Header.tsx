@@ -43,7 +43,9 @@ const Header: FC<HeaderProps> = () => {
                 </Link>
               ))}
             </nav>
-            <Button text="Get started" />
+            <Link to="/contact-us">
+              <Button text="Get Started" />
+            </Link>
           </div>
         </Container>
       </div>

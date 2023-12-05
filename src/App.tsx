@@ -2,7 +2,7 @@ import "./App.css";
 import { createBrowserRouter } from "react-router-dom";
 import Root from "@pages/root";
 import ErrorPage from "./ErrorPage";
-import { Home, Services, Blog, About } from "@pages/index";
+import { Home, Services, Blog, About,Contact_Us } from "@pages/index";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +18,10 @@ const router = createBrowserRouter([
       { path: "/services", element: <Services /> },
       { path: "/blog", element: <Blog /> },
       { path: "/about", element: <About /> },
+      {
+        path: "/contact-us",
+        element: <Contact_Us />,
+      },
     ],
   },
 ]);

@@ -1,8 +1,8 @@
 import { FC } from "react";
 import Hero from "@/components/globals/Hero";
-import Who from "@/components/contact_Us/Who";
-import Results from "@/components/contact_Us/Results";
-import Vision from "@/components/contact_Us/Vision";
+import Who from "@/components/about_Us/Who";
+import Results from "@/components/about_Us/Results";
+import Vision from "@/components/about_Us/Vision";
 
 interface aboutProps {}
 
