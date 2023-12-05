@@ -8,11 +8,16 @@ const Blog: FC<BlogProps> = () => {
   return (
     <>
       <div className="main_img">
-        <Hero
+        {/* <Hero
           className="lg:text-[99px] md:text-[60px] sm:text-[50px] text-[30px] whitespace-nowrap "
           ttl="Welcome to our Blog"
           disc="Discover the most up-to-date information on cyber risks and how to
             mitigate them."
+        /> */}
+         <Hero
+          className="xl:text-8xl lg:text-7xl md:text-6xl sm:text-4xl text-2xl"
+          ttl="Welcome to our Blog"
+          disc="Discover the most up-to-date information on cyber risks and how to mitigate them."
         />
         <Articals />
       </div>

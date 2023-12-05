@@ -17,9 +17,9 @@ const Footer: FC<FooterProps> = () => {
       <div>
         <Stay />
         <Container className="footer_border py-12 px-3 ">
-          <div className="grid grid-cols-3 gap-14">
-            <div className="flex flex-col justify-between gap-4 max-w-[330px] mx-10  mr-2">
-              <img className=" max-w-[300px]" src={Logo} alt="" />
+          <div className="grid md:grid-cols-3 grid-cols-2 gap-14">
+            <div className="flex flex-col justify-between gap-4 max-w-[350px] md:mx-10 mr-2">
+              <img className="max-w-[300px]" src={Logo} alt="" />
               <p className=" text-gray-500">
                 Lorem ipsum dolor sit amet consectetur. Egestas in consequat
                 nisl mattis elementum neque.
@@ -32,7 +32,7 @@ const Footer: FC<FooterProps> = () => {
               </div>
             </div>
 
-            {/* hi */}
+            {/*  */}
             <div className="grid grid-cols-3 col-span-2">
               <ul className="flex flex-col justify-between gap-4">
                 <li className="text-main-light font-semibold">Company</li>
@@ -83,7 +83,9 @@ const Footer: FC<FooterProps> = () => {
           </div>
           <div className="mt-10 border-slate-200 border-t">
             {/* <span className="h-[2px] bg-gradient-to-r  from-slate-500 to-slate-400 w-[400px]"></span> */}
-            <p className="text-center mt-4 text-gray-500">© Copyright 2022, All Rights Reserved by Securecrowd</p>
+            <p className="text-center mt-4 text-gray-500 text-[14px]">
+              © Copyright 2022, All Rights Reserved by Securecrowd
+            </p>
           </div>
         </Container>
       </div>
