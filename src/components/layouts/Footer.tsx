@@ -82,7 +82,6 @@ const Footer: FC<FooterProps> = () => {
             </div>
           </div>
           <div className="mt-10 border-slate-200 border-t">
-            {/* <span className="h-[2px] bg-gradient-to-r  from-slate-500 to-slate-400 w-[400px]"></span> */}
             <p className="text-center mt-4 text-gray-500 text-[14px]">
               © Copyright 2022, All Rights Reserved by Securecrowd
             </p>
