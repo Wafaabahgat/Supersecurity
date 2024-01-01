@@ -33,8 +33,8 @@ const Footer: FC<FooterProps> = () => {
             </div>
 
             {/*  */}
-            <div className="grid grid-cols-3 col-span-2">
-              <ul className="flex flex-col justify-between gap-4">
+            <div className="grid sm:grid-cols-3 col-span-2 grid-cols-2 gap-y-8">
+              <ul className="flex flex-col justify-between gap-4 text-gray-500">
                 <li className="text-main-light font-semibold">Company</li>
                 <li className="hover:ml-2 transition-all hover:text-main cursor-pointer text-gray-500">
                   About
@@ -82,7 +82,7 @@ const Footer: FC<FooterProps> = () => {
             </div>
           </div>
           <div className="mt-10 border-slate-200 border-t">
-            <p className="text-center mt-4 text-gray-500 text-[14px]">
+            <p className="text-center mt-4 text-gray-500 sm:text-[14px] text-[12px]">
               © Copyright 2022, All Rights Reserved by Securecrowd
             </p>
           </div>
