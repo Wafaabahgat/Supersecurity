@@ -7,7 +7,7 @@ const Who: FC<WhoProps> = () => {
   return (
     <Container className="mb-28">
       <h1 className="text-main-light lg:text-[38px] text-3xl font-semibold mb-4">Who We Are</h1>
-      <p className="text-main-dark lg:text-[26px] text-xl">
+      <p className="text-main-dark lg:text-[24px] lg:!leading-[48px] md:!leading-8 sm:!leading-6 text-xl">
         Lorem ipsum dolor sit amet consectetur. Tortor lobortis sed eget vitae
         dictumst sed. Proin morbi imperdiet morbi mauris facilisis habitasse. Eu
         interdum vulputate magna est neque sit arcu arcu. Tellus ut hac eleifend
