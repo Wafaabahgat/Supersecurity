@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Stay from "@globals/Stay";
+import Stay from "../globals/Stay";
 import Container from "../ui/Container";
 import Logo from "@assets/home/Logo.svg";
 import {

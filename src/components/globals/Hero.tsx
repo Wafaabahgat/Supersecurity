@@ -1,5 +1,5 @@
 import { FC, ImgHTMLAttributes } from "react";
-import Container from "e:/secure_crowd_v2/src/components/ui/Container";
+import Container from "../ui/Container";
 import { cn } from "@/utils";
 
 import BG from "@assets/BG.png";

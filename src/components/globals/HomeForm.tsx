@@ -4,6 +4,7 @@ import Line from "./Line";
 
 interface HomeFormProps {
   ttl?: string;
+  children?: string;
 }
 
 const HomeForm: FC<HomeFormProps> = ({ ttl, children }) => {

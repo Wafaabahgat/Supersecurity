@@ -1,7 +1,7 @@
 import { FC } from "react";
 import Container from "@ui/Container";
-import Title from "@globals/Title";
-import S_border from "@globals/S_border";
+import Title from "../globals/Title";
+import S_border from "../globals/S_border";
 import shield from "@assets/contact_Us/shield.svg";
 
 interface VisionProps {}

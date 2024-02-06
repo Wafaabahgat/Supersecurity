@@ -1,12 +1,12 @@
 import { FC } from "react";
-import HomeForm from "@globals/HomeForm";
+import HomeForm from "../globals/HomeForm";
 import Google from "@assets/home/Google.svg";
 import Facebook from "@assets/home/Facebook.svg";
 import YouTube from "@assets/home/YouTube.svg";
 import Pinterest from "@assets/home/Pinterest.png";
 import Twitch from "@assets/home/Twitch.svg";
 import Webflow from "@assets/home/Webflow.svg";
-import TtlHome from "@globals/Ttl_Home";
+import TtlHome from "../globals/Ttl_Home";
 
 interface ClientsProps {}
 const images = [Google, Facebook, YouTube, Pinterest, Twitch, Webflow];
